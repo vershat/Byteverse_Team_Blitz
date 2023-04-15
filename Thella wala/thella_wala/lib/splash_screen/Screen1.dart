@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 // ignore: unused_import
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
+import 'package:thella_wala/splash_screen/copygetotp.dart';
+import 'package:thella_wala/splash_screen/copygetotp2.dart';
 class Screen1 extends StatefulWidget {
   @override
   _Screen1State createState() => _Screen1State();
@@ -30,7 +31,7 @@ class _Screen1State extends State<Screen1> {
             Column(
               children: [
                 const Text(
-                  "Gali_Food",
+                  "Thela_Wala",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.black,
@@ -39,7 +40,7 @@ class _Screen1State extends State<Screen1> {
                   ),
                 ),
                 Image.asset(
-                  "lib/assets/thela.png",
+                  "assets/thela.png",
                   height: 300.0,
                   width: 300.0,
                 ),
@@ -53,11 +54,13 @@ class _Screen1State extends State<Screen1> {
 
                   // ignore: prefer_const_constructors
                   onPressed: () {
-                    // Navigator.push(context, MaterialPageRoute(builder: (context) => const EnterMobileNo()),);
-                    },
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => const MyPhone()),
+                    );
+                  },
                   child: const Padding(
-                    padding: EdgeInsets.symmetric(
-                        vertical: 10, horizontal: 34),
+                    padding: EdgeInsets.symmetric(vertical: 10, horizontal: 34),
                     child: Text(
                       "Get Started",
                       style: TextStyle(

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "937734973017",
+    "project_id": "thellawala-554b3",
+    "storage_bucket": "thellawala-554b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937734973017:android:c092f1f1f1c8ad025b7348",
+        "android_client_info": {
+          "package_name": "com.example.thella_wala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937734973017-on7lekgf0v5sgn5cte883vb2mpvb68i2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thella_wala",
+            "certificate_hash": "c73afc7d52f07f97271dc30818c37113c4615ffd"
+          }
+        },
+        {
+          "client_id": "937734973017-od3m5i4t207of18osmmgqrl2crk2mdpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFeh8y6j6ZvzgBSBdKPsjZQ3tfvfPdbdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937734973017-od3m5i4t207of18osmmgqrl2crk2mdpe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
