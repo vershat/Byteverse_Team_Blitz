@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.cyan,
       ),
-      home: GetUserLoc(),
+      home: Screen1(),
       debugShowCheckedModeBanner: false,
     );
   }
