@@ -58,6 +58,11 @@ owner in making more money.
   carousel_slider: ^4.2.1
 </pre>
 <hr>
+<pre>
+<b><h2>Figma design </h2></b>
+  https://www.figma.com/file/wGZOYTf6tfk9WY8Jrlw36b/Thella-wala?node-id=0%3A1&t=ffzWyhEGq4HbhY1T-1
+</pre>
+<hr>
 <ol>
 <b><h2> Contributors </b></h2>
 1. Mansi(Team Lead)<br>
