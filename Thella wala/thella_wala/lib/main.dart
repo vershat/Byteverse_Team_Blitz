@@ -5,6 +5,7 @@ import 'package:thella_wala/splash_screen/Screen1.dart';
 import 'package:thella_wala/splash_screen/copygetotp.dart';
 import 'package:thella_wala/splash_screen/location.dart';
 import 'package:thella_wala/splash_screen/copygetotp2.dart';
+import 'package:thella_wala/splash_screen/selecttype.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.cyan,
       ),
-      home: Screen1(),
+      home: CreateAccountPage(),
       debugShowCheckedModeBanner: false,
     );
   }

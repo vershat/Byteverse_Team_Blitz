@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:pinput/pinput.dart';
 import 'package:thella_wala/splash_screen/copygetotp.dart';
 import 'package:thella_wala/splash_screen/location.dart';
-
 class MyVerify extends StatefulWidget {
   const MyVerify({Key? key, required Text title}) : super(key: key);
 
@@ -62,6 +61,14 @@ class _MyVerifyState extends State<MyVerify> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              // Image.asset(
+              //   'assets/img1.png',
+              //   width: 150,
+              //   height: 150,
+              // ),
+              // SizedBox(
+              //   height: 25,
+              // ),
               Container(
                   alignment: Alignment.center,
                   padding: const EdgeInsets.all(10),
@@ -72,11 +79,33 @@ class _MyVerifyState extends State<MyVerify> {
               SizedBox(
                 height: 50,
               ),
+
+              // Text(
+              //   "Phone Verification",
+              //   style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+              // ),
+              // SizedBox(
+              //   height: 10,
+              // ),
+              // Text(
+              //   "We need to register your phone without getting started!",
+              //   style: TextStyle(
+              //     fontSize: 16,
+              //   ),
+              //   textAlign: TextAlign.center,
+              // ),
+              // SizedBox(
+              //   height: 30,
+              // ),
               Pinput(
                 length: 6,
                 onChanged: (value) {
                   code = value;
                 },
+                // defaultPinTheme: defaultPinTheme,
+                // focusedPinTheme: focusedPinTheme,
+                // submittedPinTheme: submittedPinTheme,
+
                 showCursor: true,
                 onCompleted: (pin) => print(pin),
               ),

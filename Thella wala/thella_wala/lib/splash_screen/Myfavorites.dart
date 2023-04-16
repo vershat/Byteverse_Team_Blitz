@@ -98,7 +98,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                               borderRadius: BorderRadius.circular(15.0),
                               image: DecorationImage(
                                   fit: BoxFit.fill,
-                                  image: AssetImage("assets/thela.png")))),
+                                  image: AssetImage("assets/momo.jpg")))),
                     ),
                     //CircleAvatar
                     //SizedBox
@@ -108,7 +108,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                     child: Column(children: [
                                  Row(mainAxisAlignment: MainAxisAlignment.start,
                                    children:[Text(
-                                                     ' Chotu Panipuri ',
+                                                     'Mansi Momo',
                                                      style: TextStyle(fontSize: 20),
                                                    )],
                                  ),
@@ -127,7 +127,7 @@ Row(
   children: [
         Text(
     
-                        'Panipuri and snacks.2km ',
+                        'Momo and snacks.2km ',
     
                         style: TextStyle(fontSize: 15),
     

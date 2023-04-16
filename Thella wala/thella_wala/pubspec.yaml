@@ -82,6 +82,13 @@ flutter:
     - assets/map.jpg
     - assets/profilepic.png
     - assets/blank-profile-picture.webp
+    - assets/pavbhaaji.jpg
+    - assets/momo.jpg
+    - assets/chat.jpg
+    - assets/chaat.jpg
+    - assets/cholabhatura.jpg
+
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

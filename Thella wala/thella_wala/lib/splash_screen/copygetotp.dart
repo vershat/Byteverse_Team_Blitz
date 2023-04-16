@@ -18,6 +18,7 @@ class _MyPhoneState extends State<MyPhone> {
   var phone = "";
   @override
   void initState() {
+    // TODO: implement initState
     countryController.text = "+91";
     super.initState();
   }
@@ -38,10 +39,10 @@ class _MyPhoneState extends State<MyPhone> {
                   children: [
                     IconButton(
                         onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => Screen1()),
-                          );
+                           Navigator.push(
+                      context,                       
+                      MaterialPageRoute(builder: (context) => Screen1()),
+                    );
                         },
                         icon: Icon(Icons.arrow_back_ios_new_outlined, size: 20))
                   ],
@@ -50,7 +51,7 @@ class _MyPhoneState extends State<MyPhone> {
                     alignment: Alignment.center,
                     padding: const EdgeInsets.all(10),
                     child: const Text(
-                      'Enter your mobile number number to get OTP',
+                      ' Enter your mobile number number to get OTP',
                       style: TextStyle(fontSize: 30),
                     )),
                 SizedBox(

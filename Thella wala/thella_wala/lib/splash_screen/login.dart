@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:thella_wala/splash_screen/Addmenu.dart';
 import 'package:thella_wala/splash_screen/Home.dart';
 import 'package:thella_wala/splash_screen/profile_screen.dart';
+import 'package:thella_wala/splash_screen/selecttype.dart';
 // void main() => runApp(const MyApp());
 
 class login extends StatelessWidget {
@@ -43,7 +45,10 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   IconButton(
-                      onPressed: () {},
+                      onPressed: () { Navigator.push(
+                      context,                       
+                      MaterialPageRoute(builder: (context) =>CreateAccountPage()),
+                    );},
                       icon: Icon(Icons.arrow_back_ios_new_outlined, size: 20))
                 ],
               ),
@@ -151,9 +156,10 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
 
                   // ignore: prefer_const_constructors
                   onPressed: () {
-                    Navigator.push(
-                          context,
-                          MaterialPageRoute(builder: (context) => MyAppl()),
+                     Navigator.push(
+                      context,                       
+                      MaterialPageRoute(builder: (context) => Addmenu())
+                    
                         );
                   },
                   child: Padding(

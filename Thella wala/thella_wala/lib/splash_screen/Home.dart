@@ -2,6 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:thella_wala/splash_screen/Aftersearch.dart';
 import 'package:thella_wala/splash_screen/about.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+// import 'package:gali_food/screens/about.dart';
+// import 'package:gali_food/screens/aftersearch.dart';
+// import 'package:gali_food/screens/locationmanually.dart';
 void main() => runApp(const MyAppl());
  
 class MyAppl extends StatelessWidget {
@@ -45,7 +50,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                           'Home',
                           style: TextStyle(fontSize: 40),
                         )),
-                        SizedBox(width: 30,),
+                        SizedBox(width: 40,),
                         IconButton(onPressed: (){
                            Navigator.push(
                               context,
@@ -120,7 +125,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                
                 Container(
                 child: Image.asset(
-                  "assets/thela.png",
+                  "assets/chat.jpg",
                   height: 150,
                   ),
                 ),
@@ -128,7 +133,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                   child: Divider(color: Colors.black,)
               ),
                 Text(
-                  "Shyam Bhelpuri 100m.5min",
+                  "Chotu panipuri 100m.5min",
                   style: TextStyle(
                     fontSize: 23,
                    // fontWeight: ,
@@ -184,7 +189,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
              
               Container(
               child: Image.asset(
-                "assets/thela.png",
+                "assets/pavbhaaji.jpg",
                 height: 150,
                 ),
               ),
@@ -192,7 +197,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                 child: Divider(color: Colors.black,)
                      ),
               Text(
-                "Shyam Bhelpuri 100m.5min",
+                "Karnika pavbhaji 100m.5min",
                 style: TextStyle(
                   fontSize: 23,
                  // fontWeight: ,

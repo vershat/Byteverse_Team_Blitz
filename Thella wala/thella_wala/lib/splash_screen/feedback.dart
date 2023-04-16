@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:thella_wala/splash_screen/about.dart';
 
 class Feed extends StatelessWidget {
   const Feed ({Key? key}) : super(key: key);
@@ -40,7 +41,12 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   IconButton(
-                      onPressed: () {},
+                      onPressed: () {
+                         Navigator.push(
+                      context,                       
+                      MaterialPageRoute(builder: (context) => About()),
+                    );
+                      },
                       icon: Icon(Icons.arrow_back_ios_new_outlined, size: 20))
                 ],
               ),

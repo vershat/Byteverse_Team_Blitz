@@ -19,6 +19,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
+        
         child: Stack(
           children: [
             Column(
@@ -35,6 +36,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
+                        
                         Text(
                           style: TextStyle(
                             fontSize: 25.0,
@@ -99,10 +101,9 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
                                 TextButton(
                                   onPressed: () {
                                     Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                          builder: (context) => login()),
-                                    );
+                          context,
+                          MaterialPageRoute(builder: (context) => login()),
+                        );
                                   },
                                   style: TextButton.styleFrom(
                                     alignment: Alignment.topCenter,
