@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+// ignore: depend_on_referenced_packages
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:thella_wala/splash_screen/Home.dart';
 import 'package:thella_wala/splash_screen/login.dart';

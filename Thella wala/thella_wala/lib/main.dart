@@ -1,6 +1,7 @@
 // ignore: depend_on_referenced_packages
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:thella_wala/maps/getuserlocation.dart';
 import 'package:thella_wala/splash_screen/Screen1.dart';
 import 'package:thella_wala/splash_screen/copygetotp.dart';
 import 'package:thella_wala/splash_screen/location.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.cyan,
       ),
-      home: CreateAccountPage(),
+      home: GetUserLoc(),
       debugShowCheckedModeBanner: false,
     );
   }
