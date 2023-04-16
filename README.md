@@ -22,6 +22,9 @@ owner in making more money.
 <hr>
 <pre>
 <b><h2> ScreenShots of App</h2></b>
+<p align="left"><img src="https://user-images.githubusercontent.com/96232099/232308383-6143b2c4-d905-4647-b748-87e642d554db.jpg" alt="android" width="220" height="500"/> <img src="" alt="android" width="220" height="500"/> <img src="" alt="android" width="220" height="500"/> 
+<img src="" alt="android" width="220" height="500"/> <img src="" alt="android" width="220" height="500"/> <img src="" alt="android" width="220" height="500"/> 
+
 </pre>
 <hr>
 <ol>
