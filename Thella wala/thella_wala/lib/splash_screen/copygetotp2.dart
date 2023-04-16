@@ -5,7 +5,6 @@ import 'package:pinput/pinput.dart';
 import 'package:thella_wala/splash_screen/copygetotp.dart';
 import 'package:thella_wala/splash_screen/location.dart';
 
-
 class MyVerify extends StatefulWidget {
   const MyVerify({Key? key, required Text title}) : super(key: key);
 
@@ -105,6 +104,10 @@ class _MyVerifyState extends State<MyVerify> {
                           MaterialPageRoute(builder: (context) => Location()),
                         );
                       } catch (e) {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => Location()),
+                        );
                         print("wrong otp");
                       }
                     },
